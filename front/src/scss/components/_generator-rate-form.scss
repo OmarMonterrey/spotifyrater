@@ -1,0 +1,110 @@
+#generator-inner-rate-form{
+    .valoration{
+        &-overall{
+            font-size:1.5em;
+            .label{display:none}
+            .emoji-list{
+                width:220px;
+                .emoji{
+                    font-size:32px;
+                    &:not(.active){
+                        opacity:.1;
+                    }
+                }
+            }
+        }
+        display:flex;
+        margin:24px 0;
+        width:100%;
+        align-items: center;
+        .label{
+            width:100px;
+        }
+        .number{
+            width:100px;
+            text-align:center;
+        }
+            .emoji-list{
+                width:220px;
+                display:flex;
+                font-size:16px;
+                display:flex;
+                justify-content: space-between;
+                user-select: none;
+            }
+        &:not(.valoration-overall){
+            .emoji-list{
+                &:hover{
+                    .emoji{
+                        opacity:1;
+                    }
+                }
+                .emoji{
+                    opacity:.1;
+                    cursor:pointer;
+                    &.active{ opacity:1; }
+                    &:hover ~ .emoji{
+                        opacity:.1;
+                        &.active{opacity:.2;}
+                    }
+                }
+            }
+        }
+        &-edit{
+            .label{
+                width:150px;
+                input{
+                    width:100%;
+                    background:none;
+                    border:none;
+                    border-bottom:1px solid $white;
+                    color:$white;
+                    outline:none;
+                    &:focus, &:active{
+                        border-color: $green;
+                    }
+                }
+            }
+            .emoji-button{
+                width:auto;
+                margin-left:auto;
+                button{
+                    cursor:pointer;
+                    padding:8px 16px;
+                    border-radius:50px;
+                    border:none;
+                    background-color:$green;
+                    color:white;
+                    font-weight: bold;
+                    &:hover{
+                        background-color:$lime;
+                    }
+                    &.remove-valoration{
+                        background-color: $red;
+                        font-size:18px;
+                        &:hover{
+                            background-color: $lred;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .add-valoration{
+        width:100%;
+        background-color:transparent;
+        color:$white;
+        margin:10px 0;
+        border:1px solid $white;
+        outline:none;
+        padding:10px;
+        border-radius:100px;
+        font-size:12px;
+        cursor: pointer;
+        transition: background-color .1s, color .1s;
+        &:hover{
+            background-color: $white;
+            color:$dark;
+        }
+    }
+}

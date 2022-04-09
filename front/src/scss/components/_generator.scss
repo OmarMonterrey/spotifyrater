@@ -1,0 +1,23 @@
+#generator{
+    width:100%;
+    height:100%;
+    padding:20px;
+    display:flex;
+    .generator-inner{
+        margin:5vh auto 0 auto;
+        width:600px;
+        max-width: 100%;
+        padding:16px;
+        background-color: rgba($black, 0.3);
+        border-radius:8px;
+        h1{
+            text-align:center;
+            margin:0;
+        }
+    }
+    @import 'generator-search';
+    @import 'generator-rate';
+    @import 'generator-rate-form';
+    @import 'generator-rate-options';
+}
+@import './emoji-selector';

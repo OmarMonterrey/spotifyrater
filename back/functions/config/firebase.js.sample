@@ -1,0 +1,12 @@
+const { initializeApp } = require('firebase-admin/app');
+const config =  {
+    apiKey: "<apiKey>",
+    authDomain: "<authDomain>",
+    projectId: "spotifyrater",
+    storageBucket: "spotifyrater.appspot.com",
+    messagingSenderId: "<SenderId>",
+    appId: "<AppID>",
+    measurementId: "<Analytics>"
+};
+const app = initializeApp(config)
+exports.app = app;

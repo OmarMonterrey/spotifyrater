@@ -1,0 +1,35 @@
+{
+    "searchPlaceholder": "Artistas, Canciones, Álbumes",
+    "label": {
+        "lyrics": "Letra",
+        "production": "Producción",
+        "innovation": "Innovación"
+    },
+    "notice": {
+        "searching": "Buscando...",
+        "start_writting": "Comience a escribir para buscar música",
+        "three_chars": "Escriba al menos 3 caracteres",
+        "no_results": "No se encontraron resultados"
+    },
+    "criteria": {
+        "valoration": "Valoración",
+        "add": "Agregar Criterio",
+        "new": "Nuevo Criterio",
+        "edit": "Editar Criterios"
+    },
+    "save": {
+        "image": "Guardar Imagen",
+        "changes": "Guardar Cambios"
+    },
+    "emoji": {
+        "select": "Seleccionar Emoji"
+    },
+    "type": {
+        "track": "Canción",
+        "track_from": "Canción de {0}",
+        "album": "Álbum"
+    },
+    "change": "Cambiar",
+    "cancel": "Cancelar",
+    "back": "Volver"
+}

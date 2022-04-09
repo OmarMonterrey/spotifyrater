@@ -1,0 +1,25 @@
+#generator-inner-rate-options{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    button{
+        background-color: $green;
+        color:white;
+        border:none;
+        border-radius:100px;
+        font-size: 1rem;
+        padding:8px 16px;
+        cursor:pointer;
+        &:hover{
+            background-color: $lime;
+        }
+        &.edit-valorations{
+            background-color:$blue;
+            margin-left:auto;
+            &:hover{
+                background-color: $indigo;
+            }
+        }
+      }
+}

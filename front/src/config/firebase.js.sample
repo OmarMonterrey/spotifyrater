@@ -1,0 +1,12 @@
+import {initializeApp} from 'firebase/app';
+const config =  {
+    apiKey: "<apiKey>",
+    authDomain: "<authDomain>",
+    projectId: "spotifyrater",
+    storageBucket: "spotifyrater.appspot.com",
+    messagingSenderId: "<SenderId>",
+    appId: "<AppID>",
+    measurementId: "<Analytics>"
+};
+const app = initializeApp(config)
+export default app;

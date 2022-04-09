@@ -1,0 +1,35 @@
+{
+    "searchPlaceholder": "Artists, Tracks, Albums",
+    "label": {
+        "lyrics": "Lyrics",
+        "production": "Production",
+        "innovation": "Innovation"
+    },
+    "notice": {
+        "searching": "Searching...",
+        "start_writting": "Start writting to search for music",
+        "three_chars": "Write at least 3 characters",
+        "no_results": "No results found"
+    },
+    "criteria": {
+        "valoration": "Valoration",
+        "add": "Add Criteria",
+        "new": "New Criteria",
+        "edit": "Edit Criteria"
+    },
+    "save": {
+        "image": "Save as Image",
+        "changes": "Save Changes"
+    },
+    "emoji": {
+        "select": "Select Emoji"
+    },
+    "type": {
+        "track": "Track",
+        "track_from": "Track from {0}",
+        "album": "Album"
+    },
+    "change": "Change",
+    "cancel": "Cancel",
+    "back": "Go back"
+}

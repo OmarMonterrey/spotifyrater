@@ -1,0 +1,17 @@
+.emoji-selector{
+    display:grid;
+    overflow:hidden;
+    grid-template-columns:repeat(auto-fill, 48px);
+    flex-wrap:wrap;
+    &_single{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        height:48px;
+        cursor:pointer;
+        font-size:1.5em;
+        &:hover{
+            background-color: rgba(0,0,0,.1);
+        }
+    }
+}
